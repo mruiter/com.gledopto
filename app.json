@@ -98,7 +98,7 @@
     },
     "zigbee": {
       "manufacturerName": [ "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO" ],
+      "productId": [ "GLEDOPTO", "GL-C-007" ],
       "deviceId": [528 , 256],
       "profileId": 49246,
       "learnmode": {

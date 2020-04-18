@@ -18,6 +18,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Mac config files
+.DS_Store
 # =========================
 # Operating System Files
 # =========================

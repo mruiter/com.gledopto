@@ -1021,10 +1021,11 @@
                 "dim": {}
             },
             "images": {
-                "large": "/drivers/gledopto_gl-c-007/assets/images/large.jpg",
-                "small": "/drivers/gledopto_gl-c-007/assets/images/small.jpg"
+                "large": "/drivers/gledopto_gl-c-009/assets/images/large.jpg",
+                "small": "/drivers/gledopto_gl-c-009/assets/images/small.jpg"
             },
-            "zigbee": {
+        "icon": "/assets/icon.svg",    
+	"zigbee": {
                 "manufacturerName": [
                     "GLEDOPTO"
                 ],

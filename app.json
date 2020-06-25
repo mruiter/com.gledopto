@@ -992,10 +992,10 @@
 }
 ,
 {
-            "id": "led_dimmer",
+            "id": "gledopto_gl-c-009",
             "name": {
-                "en": "Gledopto Dimmer",
-                "nl": "Gledopto Dimmer"
+                "en": "Gledopto GL-C-009 LED Dimmer",
+                "nl": "Gledopto GL-C-009 LED Dimmer"
             },
             "mobile": {
                 "components": [
@@ -1023,8 +1023,8 @@
                 "dim": {}
             },
             "images": {
-                "large": "/drivers/gledopto_rgb/assets/images/large.jpg",
-                "small": "/drivers/gledopto_rgb/assets/images/small.jpg"
+                "large": "/drivers/gledopto_gl-c-007/assets/images/large.jpg",
+                "small": "/drivers/gledopto_gl-c-007/assets/images/small.jpg"
             },
             "zigbee": {
                 "manufacturerName": [

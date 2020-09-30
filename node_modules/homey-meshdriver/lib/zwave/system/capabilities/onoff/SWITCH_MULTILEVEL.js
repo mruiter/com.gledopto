@@ -3,6 +3,7 @@
 const util = require('./../../../../util');
 
 const FACTORY_DEFAULT_DIMMING_DURATION = 'Factory default';
+const FACTORY_DEFAULT_DIMMING_DURATION_V4 = 'Default';
 
 module.exports = {
 	get: 'SWITCH_MULTILEVEL_GET',
@@ -12,6 +13,14 @@ module.exports = {
 	}),
 	setParserV2(value, options) {
 		const duration = (options.hasOwnProperty('duration') ? util.calculateZwaveDimDuration(options.duration) : FACTORY_DEFAULT_DIMMING_DURATION);
+		return {
+			Value: (value) ? 'on/enable' : 'off/disable',
+			'Dimming Duration': duration,
+		};
+	},
+	setParserV4(value, options) {
+    // Buffer.from() is a fix for difference between V3/V4 dimming duration XML specification
+    const duration = (options.hasOwnProperty('duration') ? Buffer.from([util.calculateZwaveDimDuration(options.duration)]) : FACTORY_DEFAULT_DIMMING_DURATION_V4);
 		return {
 			Value: (value) ? 'on/enable' : 'off/disable',
 			'Dimming Duration': duration,

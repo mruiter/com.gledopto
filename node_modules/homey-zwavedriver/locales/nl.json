@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "offlineNodeSaveMessage": "Instelling zullen worden opgeslagen bij volgende wakeup van dit apparaat."
+  },
+  "error": {
+    "unknown": "Onbekend probleem"
+  }
+}

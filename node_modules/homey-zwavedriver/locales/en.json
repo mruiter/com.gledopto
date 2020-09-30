@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "offlineNodeSaveMessage": "Settings will be saved during the next wakeup of this battery device."
+  },
+  "error": {
+    "unknown": "Unknown error"
+  }
+}

@@ -1,12 +1,15 @@
-'use strict';
+"use strict";
 
-const Homey = require('homey');
-const Log = require('homey-log').Log;
+const Homey = require("homey");
 
-class GledoptoZigBeeApp extends Homey.App {
-	onInit() {
-		this.log('init GledoptoZigBeeApp');
-	}
+// Enable zigbee-cluster logging
+ const { Util } = require('homey-zigbeedriver');
+ Util.debugZigbeeClusters(true);
+
+class GledoptoZigbeeApp extends Homey.App {
+  onInit() {
+    this.log("Gledopto Zigbee app initiating...");
+  }
 }
 
-module.exports = GledoptoZigBeeApp;
+module.exports = GledoptoZigbeeApp;

@@ -2,6 +2,6 @@
 
 const Light = require("../Light.js");
 
-class gl-s-007z extends Light { }
+class gls007z extends Light { }
 
-module.exports = gl-s-007z;
+module.exports = gls007z;

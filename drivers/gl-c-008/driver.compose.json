@@ -20,10 +20,12 @@
     "deviceId":  528,
     "profileId": 49246,
     "endpoints": {
-      "11": {
+      "10": {
         "clusters": [
           0,
+          3,
           4,
+          5,
           6,
           8,
           768

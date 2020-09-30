@@ -16,7 +16,7 @@
   },
   "zigbee": {
     "manufacturerName": [ "MLI", "GLEDOPTO" ],
-    "productId": [ "GLEDOPTO", "GL-C-008" ],
+    "productId": [ "GL-C-008" ],
     "deviceId":  528,
     "profileId": 49246,
     "endpoints": {

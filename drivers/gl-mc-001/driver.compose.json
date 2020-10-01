@@ -15,12 +15,12 @@
     }
   },
   "zigbee": {
-    "manufacturerName": [ "MLI", "GLEDOPTO" ],
+    "manufacturerName": [ "GLEDOPTO" ],
     "productId": [ "GL-MC-001" ],
     "deviceId":  [ 528 ],
     "profileId": [ 49246 ],
     "endpoints": {
-      "10": {
+      "11": {
         "clusters": [
           0,
           4,

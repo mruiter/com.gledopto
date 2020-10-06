@@ -1,7 +1,7 @@
 {
   "name": {
-      "en": "Tint warm-white light",
-      "nl": "Tint warm-wit lamp"
+      "en": "Tint WW Bulb",
+      "nl": "Tint WW Bulb"
   },
    "images": {
       "large": "/drivers/tint_ww/assets/images/large.jpg",

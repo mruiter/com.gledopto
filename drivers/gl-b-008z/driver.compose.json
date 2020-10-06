@@ -1,7 +1,7 @@
 {
   "name": {
-    "en": "Gledopto GL-B-008ZS CANDLE BULB E27",
-    "nl": "Gledopto GL-B-008ZS CANDLE BULB E27"
+    "en": "GL-B-008ZS Candle Bulb E27",
+    "nl": "GL-B-008ZS Candle Bulb E27"
   },
   "images": {
     "large": "/drivers/gl-b-008z/assets/images/large.jpg",
@@ -15,7 +15,7 @@
     }
   },
   "zigbee": {
-    "manufacturerName": ["MLI", "GLEDOPTO"],
+    "manufacturerName": ["GLEDOPTO"],
     "productId": ["GL-B-008Z"],
     "deviceId": 528,
     "profileId": 49246,

@@ -1,7 +1,7 @@
 {
   "name": {
-      "en": "Gledopto GL-C-007 RGBW",
-      "nl": "Gledopto GL-C-007 RGBW"
+      "en": "GL-C-007 RGBW Controller",
+      "nl": "GL-C-007 RGBW Controller"
   },
   "images": {
 	"large": "/drivers/gl-c-007/assets/images/large.jpg",
@@ -15,7 +15,7 @@
     }
   },
   "zigbee": {
-    "manufacturerName": [ "MLI", "GLEDOPTO" ],
+    "manufacturerName": [ "GLEDOPTO" ],
     "productId": [ "GL-C-007" ],
     "deviceId":  [ 528, 544 ],
     "profileId": [ 49246, 260 ],

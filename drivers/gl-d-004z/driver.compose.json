@@ -1,7 +1,7 @@
 {
   "name": {
-      "en": "Gledopto GL-D-004Z RGBW/CCT Downlighter",
-      "nl": "Gledopto GL-D-004Z RGBW/CCT Inbouwspot"
+      "en": "GL-D-004Z RGBW/CCT Downlighter",
+      "nl": "GL-D-004Z RGBW/CCT Inbouwspot"
   },
   "images": {
 	"large": "/drivers/gl-d-004z/assets/images/large.jpg",
@@ -15,7 +15,7 @@
     }
   },
   "zigbee": {
-    "manufacturerName": [ "MLI", "GLEDOPTO" ],
+    "manufacturerName": [ "GLEDOPTO" ],
     "productId": [ "GL-D-004Z" ],
     "deviceId":  [ 528, 544 ],
     "profileId": [ 49246, 260 ],

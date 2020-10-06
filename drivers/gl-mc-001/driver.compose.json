@@ -1,7 +1,7 @@
 {
   "name": {
-      "en": "Gledopto GL-MC-001 RGB+CCT Mini Controller",
-      "nl": "Gledopto GL-MC-001 RGB+CCT Mini Controller"
+      "en": "GL-MC-001 RGB+CCT Mini Controller",
+      "nl": "GL-MC-001 RGB+CCT Mini Controller"
   },
   "images": {
 	"large": "/drivers/gl-mc-001/assets/images/large.png",

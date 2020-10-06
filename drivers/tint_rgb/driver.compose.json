@@ -1,7 +1,7 @@
 {
   "name": {
-      "en": "Tint RGB light",
-      "nl": "Tint RGB lamp"
+      "en": "Tint RGB Bulb",
+      "nl": "Tint RGB Bulb"
   },
   "images": {
 	"large": "/drivers/tint_rgb/assets/images/large.jpg",

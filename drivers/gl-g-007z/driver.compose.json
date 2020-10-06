@@ -1,7 +1,7 @@
 {
   "name": {
-      "en": "Gledopto GL-G-007Z RGBW Garden Light",
-      "nl": "Gledopto GL-G-007Z RGBW Tuin Lamp"
+      "en": "GL-G-007Z RGBW Garden Light",
+      "nl": "GL-G-007Z RGBW Tuin Lamp"
   },
   "images": {
 	"large": "/drivers/gl-g-007z/assets/images/large.jpg",
@@ -15,7 +15,7 @@
     }
   },
   "zigbee": {
-    "manufacturerName": [ "MLI", "GLEDOPTO" ],
+    "manufacturerName": [ "GLEDOPTO" ],
     "productId": [ "GL-G-007Z" ],
     "deviceId":  [ 528, 544 ],
     "profileId": [ 49246, 260 ],

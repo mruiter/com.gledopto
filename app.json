@@ -77,8 +77,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-B-001ZS CANDLE BULB E14",
-        "nl": "Gledopto GL-B-001ZS CANDLE BULB E14"
+        "en": "GL-B-001ZS Candle Bulb E14",
+        "nl": "GL-B-001ZS Candle Bulb E14"
       },
       "energy": {
         "approximation": {
@@ -88,7 +88,6 @@
       },
       "zigbee": {
         "manufacturerName": [
-          "MLI",
           "GLEDOPTO"
         ],
         "productId": [
@@ -176,8 +175,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-B-008ZS CANDLE BULB E27",
-        "nl": "Gledopto GL-B-008ZS CANDLE BULB E27"
+        "en": "GL-B-008ZS Candle Bulb E27",
+        "nl": "GL-B-008ZS Candle Bulb E27"
       },
       "energy": {
         "approximation": {
@@ -187,7 +186,6 @@
       },
       "zigbee": {
         "manufacturerName": [
-          "MLI",
           "GLEDOPTO"
         ],
         "productId": [
@@ -263,8 +261,8 @@
         }
       },
       "name": {
-        "en": "Gledopto WW+CW GL-C-006 Controller",
-        "nl": "Gledopto WW+CW GL-C-006 Controller"
+        "en": "GL-C-006 WW+CW Controller",
+        "nl": "GL-C-006 WW+CW Controller"
       },
       "energy": {
         "approximation": {
@@ -362,8 +360,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-C-007 RGBW",
-        "nl": "Gledopto GL-C-007 RGBW"
+        "en": "GL-C-007 RGBW Controller",
+        "nl": "GL-C-007 RGBW Controller"
       },
       "energy": {
         "approximation": {
@@ -373,7 +371,6 @@
       },
       "zigbee": {
         "manufacturerName": [
-          "MLI",
           "GLEDOPTO"
         ],
         "productId": [
@@ -467,8 +464,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-C-008 RGB+CCT",
-        "nl": "Gledopto GL-C-008 RGB+CCT"
+        "en": "GL-C-008 RGB+CCT Controller",
+        "nl": "GL-C-008 RGB+CCT Controller"
       },
       "energy": {
         "approximation": {
@@ -478,7 +475,6 @@
       },
       "zigbee": {
         "manufacturerName": [
-          "MLI",
           "GLEDOPTO"
         ],
         "productId": [
@@ -549,8 +545,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-C-009 LED Dimmer",
-        "nl": "Gledopto GL-C-009 LED Dimmer"
+        "en": "GL-C-009 LED Dimmer Controller",
+        "nl": "GL-C-009 LED Dimmer Controller"
       },
       "energy": {
         "approximation": {
@@ -645,8 +641,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-D-004Z RGBW/CCT Downlighter",
-        "nl": "Gledopto GL-D-004Z RGBW/CCT Inbouwspot"
+        "en": "GL-D-004Z RGBW/CCT Downlighter",
+        "nl": "GL-D-004Z RGBW/CCT Inbouwspot"
       },
       "energy": {
         "approximation": {
@@ -656,7 +652,6 @@
       },
       "zigbee": {
         "manufacturerName": [
-          "MLI",
           "GLEDOPTO"
         ],
         "productId": [
@@ -750,8 +745,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-G-001Z RGBW Garden Light",
-        "nl": "Gledopto GL-G-001Z RGBW Tuin Lamp"
+        "en": "GL-G-001Z RGBW Garden Light",
+        "nl": "GL-G-001Z RGBW Tuin Lamp"
       },
       "energy": {
         "approximation": {
@@ -761,7 +756,6 @@
       },
       "zigbee": {
         "manufacturerName": [
-          "MLI",
           "GLEDOPTO"
         ],
         "productId": [
@@ -855,8 +849,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-G-007Z RGBW Garden Light",
-        "nl": "Gledopto GL-G-007Z RGBW Tuin Lamp"
+        "en": "GL-G-007Z RGBW Garden Light",
+        "nl": "GL-G-007Z RGBW Tuin Lamp"
       },
       "energy": {
         "approximation": {
@@ -866,7 +860,6 @@
       },
       "zigbee": {
         "manufacturerName": [
-          "MLI",
           "GLEDOPTO"
         ],
         "productId": [
@@ -960,8 +953,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-MC-001 RGB+CCT Mini Controller",
-        "nl": "Gledopto GL-MC-001 RGB+CCT Mini Controller"
+        "en": "GL-MC-001 RGB+CCT Mini Controller",
+        "nl": "GL-MC-001 RGB+CCT Mini Controller"
       },
       "energy": {
         "approximation": {
@@ -1062,8 +1055,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-S-003Z RGB+CCT GU10",
-        "nl": "Gledopto GL-S-003Z RGB+CCT GU10"
+        "en": "GL-S-003Z RGB+CCT GU10 Spot",
+        "nl": "GL-S-003Z RGB+CCT GU10 Spot"
       },
       "energy": {
         "approximation": {
@@ -1073,7 +1066,6 @@
       },
       "zigbee": {
         "manufacturerName": [
-          "MLI",
           "GLEDOPTO"
         ],
         "productId": [
@@ -1149,8 +1141,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-S-004Z WW/CW GU10 Spot",
-        "nl": "Gledopto GL-S-004Z WW/CW GU10 Spot"
+        "en": "GL-S-004Z WW/CW GU10 Spot",
+        "nl": "GL-S-004Z WW/CW GU10 Spot"
       },
       "energy": {
         "approximation": {
@@ -1160,7 +1152,6 @@
       },
       "zigbee": {
         "manufacturerName": [
-          "MLI",
           "GLEDOPTO"
         ],
         "productId": [
@@ -1254,8 +1245,8 @@
         }
       },
       "name": {
-        "en": "Gledopto GL-S-007Z DW+COLOR GU10",
-        "nl": "Gledopto GL-S-007Z DW+COLOR GU10"
+        "en": "GL-S-007Z RGB/CCT GU10 Spot",
+        "nl": "GL-S-007Z RGB/CCT GU10 Spot"
       },
       "energy": {
         "approximation": {
@@ -1359,8 +1350,8 @@
         }
       },
       "name": {
-        "en": "Tint RGB light",
-        "nl": "Tint RGB lamp"
+        "en": "Tint RGB Bulb",
+        "nl": "Tint RGB Bulb"
       },
       "energy": {
         "approximation": {
@@ -1441,8 +1432,8 @@
         }
       },
       "name": {
-        "en": "Tint warm-white light",
-        "nl": "Tint warm-wit lamp"
+        "en": "Tint WW Bulb",
+        "nl": "Tint WW Bulb"
       },
       "energy": {
         "approximation": {

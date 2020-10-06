@@ -1,7 +1,7 @@
 {
   "name": {
-      "en": "Gledopto GL-S-003Z RGB+CCT GU10",
-      "nl": "Gledopto GL-S-003Z RGB+CCT GU10"
+      "en": "GL-S-003Z RGB+CCT GU10 Spot",
+      "nl": "GL-S-003Z RGB+CCT GU10 Spot"
   },
   "images": {
 	"large": "/drivers/gl-s-003z/assets/images/large.jpg",
@@ -15,7 +15,7 @@
     }
   },
   "zigbee": {
-    "manufacturerName": [ "MLI", "GLEDOPTO" ],
+    "manufacturerName": [ "GLEDOPTO" ],
     "productId": [ "GL-S-003Z" ],
     "deviceId":  528,
     "profileId": 49246,

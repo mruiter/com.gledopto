@@ -1,7 +1,7 @@
 {
   "name": {
-      "en": "Gledopto GL-S-004Z WW/CW GU10 Spot",
-      "nl": "Gledopto GL-S-004Z WW/CW GU10 Spot"
+      "en": "GL-S-004Z WW/CW GU10 Spot",
+      "nl": "GL-S-004Z WW/CW GU10 Spot"
   },
   "images": {
 	"large": "/drivers/gl-s-004z/assets/images/large.jpg",
@@ -15,7 +15,7 @@
     }
   },
   "zigbee": {
-    "manufacturerName": [ "MLI", "GLEDOPTO" ],
+    "manufacturerName": [ "GLEDOPTO" ],
     "productId": [ "GL-S-004Z" ],
     "deviceId":  [ 528, 544 ],
     "profileId": [ 49246, 260 ],

@@ -1,7 +1,7 @@
 {
   "name": {
-    "en": "Gledopto GL-B-001ZS CANDLE BULB E14",
-    "nl": "Gledopto GL-B-001ZS CANDLE BULB E14"
+    "en": "GL-B-001ZS Candle Bulb E14",
+    "nl": "GL-B-001ZS Candle Bulb E14"
   },
   "images": {
     "large": "/drivers/gl-b-001z/assets/images/large.jpg",
@@ -15,7 +15,7 @@
     }
   },
   "zigbee": {
-    "manufacturerName": ["MLI", "GLEDOPTO"],
+    "manufacturerName": ["GLEDOPTO"],
     "productId": ["GL-B-001Z"],
     "deviceId": 528,
     "profileId": 49246,

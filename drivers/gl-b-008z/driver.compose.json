@@ -3,10 +3,6 @@
     "en": "GL-B-008ZS Candle Bulb E27",
     "nl": "GL-B-008ZS Candle Bulb E27"
   },
-  "images": {
-    "large": "/drivers/gl-b-008z/assets/images/large.jpg",
-    "small": "/drivers/gl-b-008z/assets/images/small.jpg"
-  },
   "$extends": ["light_color_ambiance"],
   "energy": {
     "approximation": {

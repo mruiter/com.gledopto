@@ -3,10 +3,6 @@
       "en": "Tint RGB Bulb",
       "nl": "Tint RGB Bulb"
   },
-  "images": {
-	"large": "/drivers/tint_rgb/assets/images/large.jpg",
-	"small": "/drivers/tint_rgb/assets/images/small.jpg"
-    },
   "$extends": ["light_color_ambiance"],
   "energy": {
     "approximation": {

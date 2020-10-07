@@ -3,10 +3,6 @@
       "en": "GL-C-006 WW+CW Controller",
       "nl": "GL-C-006 WW+CW Controller"
   },
-   "images": {
-      "large": "/drivers/gl-c-006/assets/images/large.jpg",
-      "small": "/drivers/gl-c-006/assets/images/small.jpg"
-    },
   "$extends": ["light_white_ambiance"],
   "energy": {
     "approximation": {

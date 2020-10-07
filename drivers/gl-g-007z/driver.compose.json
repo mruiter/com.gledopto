@@ -3,10 +3,6 @@
       "en": "GL-G-007Z RGBW Garden Light",
       "nl": "GL-G-007Z RGBW Tuin Lamp"
   },
-  "images": {
-	"large": "/drivers/gl-g-007z/assets/images/large.jpg",
-	"small": "/drivers/gl-g-007z/assets/images/small.jpg"
-    },
   "$extends": ["light_color_ambiance"],
   "energy": {
     "approximation": {

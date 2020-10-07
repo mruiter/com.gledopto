@@ -3,10 +3,6 @@
       "en": "GL-S-007Z RGB/CCT GU10 Spot",
       "nl": "GL-S-007Z RGB/CCT GU10 Spot"
   },
-  "images": {
-	"large": "/drivers/gl-s-007z/assets/images/large.jpg",
-	"small": "/drivers/gl-s-007z/assets/images/small.jpg"
-    },
   "$extends": ["light_color_ambiance"],
   "energy": {
     "approximation": {

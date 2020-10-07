@@ -3,10 +3,6 @@
       "en": "GL-S-004Z WW/CW GU10 Spot",
       "nl": "GL-S-004Z WW/CW GU10 Spot"
   },
-  "images": {
-	"large": "/drivers/gl-s-004z/assets/images/large.jpg",
-	"small": "/drivers/gl-s-004z/assets/images/small.jpg"
-    },
   "$extends": ["light_white_ambiance"],
   "energy": {
     "approximation": {

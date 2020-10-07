@@ -10,8 +10,8 @@
     "nl": "Gebruik je Gledopto en Tint LED Controllers en lampen (ZigBee) met Homey!"
   },
   "category": "lights",
-  "brandColor": "#ff66cc",
-  "version": "2.0.1",
+  "brandColor": "#C70039",
+  "version": "2.0.2",
   "compatibility": ">=5.0.0",
   "author": {
     "name": "Marco Ruiter",
@@ -25,8 +25,8 @@
     }
   },
   "images": {
-    "large": "assets/images/large.jpg",
-    "small": "assets/images/small.jpg"
+    "large": "assets/images/large.png",
+    "small": "assets/images/small.png"
   },
   "speech": [],
   "permissions": [],

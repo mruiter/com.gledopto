@@ -3,10 +3,6 @@
       "en": "GL-C-008 RGB+CCT Controller",
       "nl": "GL-C-008 RGB+CCT Controller"
   },
-  "images": {
-	"large": "/drivers/gl-c-008/assets/images/large.jpg",
-	"small": "/drivers/gl-c-008/assets/images/small.jpg"
-    },
   "$extends": ["light_color_ambiance"],
   "energy": {
     "approximation": {

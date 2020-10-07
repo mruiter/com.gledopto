@@ -3,10 +3,6 @@
       "en": "GL-C-007 RGBW Controller",
       "nl": "GL-C-007 RGBW Controller"
   },
-  "images": {
-	"large": "/drivers/gl-c-007/assets/images/large.jpg",
-	"small": "/drivers/gl-c-007/assets/images/small.jpg"
-    },
   "$extends": ["light_color_ambiance"],
   "energy": {
     "approximation": {

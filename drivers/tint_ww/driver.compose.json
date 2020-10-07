@@ -3,10 +3,6 @@
       "en": "Tint WW Bulb",
       "nl": "Tint WW Bulb"
   },
-   "images": {
-      "large": "/drivers/tint_ww/assets/images/large.jpg",
-      "small": "/drivers/tint_ww/assets/images/small.jpg"
-    },
   "$extends": ["light_white_ambiance"],
   "energy": {
     "approximation": {

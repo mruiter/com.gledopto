@@ -3,10 +3,6 @@
       "en": "GL-D-004Z RGBW/CCT Downlighter",
       "nl": "GL-D-004Z RGBW/CCT Inbouwspot"
   },
-  "images": {
-	"large": "/drivers/gl-d-004z/assets/images/large.jpg",
-	"small": "/drivers/gl-d-004z/assets/images/small.jpg"
-    },
   "$extends": ["light_color_ambiance"],
   "energy": {
     "approximation": {

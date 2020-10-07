@@ -3,10 +3,6 @@
       "en": "GL-MC-001 RGB+CCT Mini Controller",
       "nl": "GL-MC-001 RGB+CCT Mini Controller"
   },
-  "images": {
-	"large": "/drivers/gl-mc-001/assets/images/large.png",
-	"small": "/drivers/gl-mc-001/assets/images/small.png"
-    },
   "$extends": ["light_color_ambiance"],
   "energy": {
     "approximation": {

@@ -3,10 +3,6 @@
       "en": "GL-C-009 LED Dimmer Controller",
       "nl": "GL-C-009 LED Dimmer Controller"
   },
-   "images": {
-      "large": "/drivers/gl-c-009/assets/images/large.jpg",
-      "small": "/drivers/gl-c-009/assets/images/small.jpg"
-    },
   "$extends": ["light_white"],
   "energy": {
     "approximation": {

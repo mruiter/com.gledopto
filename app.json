@@ -11,8 +11,8 @@
     "nl": "Gebruik je Gledopto en Tint LED Controllers en lampen (ZigBee) met Homey!"
   },
   "category": "lights",
-  "brandColor": "#ff66cc",
-  "version": "2.0.1",
+  "brandColor": "#C70039",
+  "version": "2.0.2",
   "compatibility": ">=5.0.0",
   "author": {
     "name": "Marco Ruiter",
@@ -26,8 +26,8 @@
     }
   },
   "images": {
-    "large": "assets/images/large.jpg",
-    "small": "assets/images/small.jpg"
+    "large": "assets/images/large.png",
+    "small": "assets/images/small.png"
   },
   "speech": [],
   "permissions": [],
@@ -40,8 +40,8 @@
       "class": "light",
       "icon": "/drivers/gl-b-001z/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-b-001z/assets/images/large.jpg",
-        "small": "/drivers/gl-b-001z/assets/images/small.jpg"
+        "large": "/drivers/gl-b-001z/assets/images/large.png",
+        "small": "/drivers/gl-b-001z/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -138,8 +138,8 @@
       "class": "light",
       "icon": "/drivers/gl-b-008z/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-b-008z/assets/images/large.jpg",
-        "small": "/drivers/gl-b-008z/assets/images/small.jpg"
+        "large": "/drivers/gl-b-008z/assets/images/large.png",
+        "small": "/drivers/gl-b-008z/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -236,8 +236,8 @@
       "class": "light",
       "icon": "/drivers/gl-c-006/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-c-006/assets/images/large.jpg",
-        "small": "/drivers/gl-c-006/assets/images/small.jpg"
+        "large": "/drivers/gl-c-006/assets/images/large.png",
+        "small": "/drivers/gl-c-006/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -323,8 +323,8 @@
       "class": "light",
       "icon": "/drivers/gl-c-007/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-c-007/assets/images/large.jpg",
-        "small": "/drivers/gl-c-007/assets/images/small.jpg"
+        "large": "/drivers/gl-c-007/assets/images/large.png",
+        "small": "/drivers/gl-c-007/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -427,8 +427,8 @@
       "class": "light",
       "icon": "/drivers/gl-c-008/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-c-008/assets/images/large.jpg",
-        "small": "/drivers/gl-c-008/assets/images/small.jpg"
+        "large": "/drivers/gl-c-008/assets/images/large.png",
+        "small": "/drivers/gl-c-008/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -527,8 +527,8 @@
       "class": "light",
       "icon": "/drivers/gl-c-009/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-c-009/assets/images/large.jpg",
-        "small": "/drivers/gl-c-009/assets/images/small.jpg"
+        "large": "/drivers/gl-c-009/assets/images/large.png",
+        "small": "/drivers/gl-c-009/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -604,8 +604,8 @@
       "class": "light",
       "icon": "/drivers/gl-d-004z/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-d-004z/assets/images/large.jpg",
-        "small": "/drivers/gl-d-004z/assets/images/small.jpg"
+        "large": "/drivers/gl-d-004z/assets/images/large.png",
+        "small": "/drivers/gl-d-004z/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -708,8 +708,8 @@
       "class": "light",
       "icon": "/drivers/gl-g-001z/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-g-001z/assets/images/large.jpg",
-        "small": "/drivers/gl-g-001z/assets/images/small.jpg"
+        "large": "/drivers/gl-g-001z/assets/images/large.png",
+        "small": "/drivers/gl-g-001z/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -812,8 +812,8 @@
       "class": "light",
       "icon": "/drivers/gl-g-007z/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-g-007z/assets/images/large.jpg",
-        "small": "/drivers/gl-g-007z/assets/images/small.jpg"
+        "large": "/drivers/gl-g-007z/assets/images/large.png",
+        "small": "/drivers/gl-g-007z/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -1018,8 +1018,8 @@
       "class": "light",
       "icon": "/drivers/gl-s-003z/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-s-003z/assets/images/large.jpg",
-        "small": "/drivers/gl-s-003z/assets/images/small.jpg"
+        "large": "/drivers/gl-s-003z/assets/images/large.png",
+        "small": "/drivers/gl-s-003z/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -1116,8 +1116,8 @@
       "class": "light",
       "icon": "/drivers/gl-s-004z/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-s-004z/assets/images/large.jpg",
-        "small": "/drivers/gl-s-004z/assets/images/small.jpg"
+        "large": "/drivers/gl-s-004z/assets/images/large.png",
+        "small": "/drivers/gl-s-004z/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -1208,8 +1208,8 @@
       "class": "light",
       "icon": "/drivers/gl-s-007z/assets/icon.svg",
       "images": {
-        "large": "/drivers/gl-s-007z/assets/images/large.jpg",
-        "small": "/drivers/gl-s-007z/assets/images/small.jpg"
+        "large": "/drivers/gl-s-007z/assets/images/large.png",
+        "small": "/drivers/gl-s-007z/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -1313,8 +1313,8 @@
       "class": "light",
       "icon": "/drivers/tint_rgb/assets/icon.svg",
       "images": {
-        "large": "/drivers/tint_rgb/assets/images/large.jpg",
-        "small": "/drivers/tint_rgb/assets/images/small.jpg"
+        "large": "/drivers/tint_rgb/assets/images/large.png",
+        "small": "/drivers/tint_rgb/assets/images/small.png"
       },
       "capabilities": [
         "onoff",
@@ -1407,8 +1407,8 @@
       "class": "light",
       "icon": "/drivers/tint_ww/assets/icon.svg",
       "images": {
-        "large": "/drivers/tint_ww/assets/images/large.jpg",
-        "small": "/drivers/tint_ww/assets/images/small.jpg"
+        "large": "/drivers/tint_ww/assets/images/large.png",
+        "small": "/drivers/tint_ww/assets/images/small.png"
       },
       "capabilities": [
         "onoff",

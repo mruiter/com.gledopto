@@ -108,8 +108,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -206,8 +206,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -295,8 +295,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -399,8 +399,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -499,12 +499,112 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
       "id": "gl-c-008",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-c-008s/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-c-008s/assets/images/large.png",
+        "small": "/drivers/gl-c-008s/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-C-008S RGB+CCT Controller",
+        "nl": "GL-C-008S RGB+CCT Controller"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-C-008S"
+        ],
+        "deviceId": 528,
+        "profileId": 49246,
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-c-008s",
       "settings": [
         {
           "id": "transition_time",
@@ -578,8 +678,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -680,8 +780,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -784,8 +884,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -888,8 +988,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -990,12 +1090,117 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
       "id": "gl-mc-001",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-mc-001p/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-mc-001p/assets/images/large.png",
+        "small": "/drivers/gl-mc-001p/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-MC-001P RGB+CCT Mini Controller",
+        "nl": "GL-MC-001P RGB+CCT Mini Controller"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-MC-001P"
+        ],
+        "deviceId": [
+          269
+        ],
+        "profileId": [
+          260
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768,
+              4096
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-mc-001p",
       "settings": [
         {
           "id": "transition_time",
@@ -1088,8 +1293,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -1180,8 +1385,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -1285,8 +1490,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -1379,8 +1584,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },
@@ -1465,8 +1670,8 @@
         },
         "learnmode": {
           "instruction": {
-            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
           }
         }
       },

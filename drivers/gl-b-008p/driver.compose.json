@@ -1,7 +1,7 @@
 {
   "name": {
-    "en": "GL-B-001Z Candle Bulb E14",
-    "nl": "GL-B-001Z Candle Bulb E14"
+    "en": "GL-B-008P Dual White And Color E27 Bulb",
+    "nl": "GL-B-008P Dual White And Color E27 Bulb"
   },
   "$extends": ["light_color_ambiance"],
   "energy": {
@@ -12,9 +12,7 @@
   },
   "zigbee": {
     "manufacturerName": ["GLEDOPTO"],
-    "productId": ["GL-B-001Z"],
-    "deviceId": 528,
-    "profileId": 49246,
+    "productId": ["GL-B-008P"],
     "endpoints": {
       "11": {
         "clusters": [

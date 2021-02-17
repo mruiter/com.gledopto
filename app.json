@@ -12,7 +12,7 @@
   },
   "category": "lights",
   "brandColor": "#C70039",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "compatibility": ">=5.0.0",
   "author": {
     "name": "Marco Ruiter",
@@ -1764,13 +1764,16 @@
         "deviceId": 269,
         "profileId": 260,
         "endpoints": {
-          "11": {
+          "10": {
             "clusters": [
               0,
               4,
               6,
               8,
-              768
+              768,
+              2821,
+              4096,
+              65244
             ]
           }
         },
@@ -1850,7 +1853,7 @@
         "deviceId": 268,
         "profileId": 260,
         "endpoints": {
-          "11": {
+          "10": {
             "clusters": [
               0,
               4,

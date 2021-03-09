@@ -16,9 +16,8 @@ class glc008 extends Light {
             // this is solved by restarting the app though. still have to find a solution for this
             this.setStoreValue('colorTempMin', 155); // values returned from newer GL-C-008
             this.setStoreValue('colorTempMax', 495);
-
-            await super.onNodeInit({ zclNode });
         }
+        await super.onNodeInit({ zclNode });
     }
 }
 

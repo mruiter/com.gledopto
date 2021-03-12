@@ -1,7 +1,7 @@
 {
   "name": {
-      "en": "GL-C-007 RGBW Controller",
-      "nl": "GL-C-007 RGBW Controller"
+      "en": "GL-C-007 RGBW Controller (1ID only)",
+      "nl": "GL-C-007 RGBW Controller (1ID only)"
   },
   "$extends": ["light_color_ambiance"],
   "energy": {

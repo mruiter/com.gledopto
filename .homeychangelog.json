@@ -16,5 +16,8 @@
   },
   "2.0.5": {
     "en": "Changed cluster for Tint products"
+  },
+  "2.0.6": {
+    "en": "Some corrections send in by users"
   }
 }

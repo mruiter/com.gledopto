@@ -1,52 +1,47 @@
 # homey-log
 
-This module can be plugged into a Homey app to send logs to [Sentry](http://sentry.io/).
+## Introduction
+This module can be used in a Homey App to send events to [Sentry](http://sentry.io/).
+
+> Note: homey-log@2.0.0 and higher is only compatible with Homey Apps SDK version 3. If you are still on version 2, please use homey-log@1.0.6 or lower.
 
 ## Installation
 
+```bash
+npm install --save homey-log
 ```
-npm install homey-log
-```
 
-## Usage
+## Getting started
 
-In your `env.json`, add your Sentry URL:
+In `env.json`, add the Sentry URL:
 
-```javascript
+```json
 {
 	"HOMEY_LOG_URL": "https://foo:bar@sentry.io/123456"
 }
 ```
 
-In your app.js, include the library:
+In `app.js`, include the library and create a new `Log` instance:
 
-```javascript
-const Log = require('homey-log').Log;
-...
-throw new Error("Whoops");
+```js
+const { Log } = require('homey-log');
+
+class MyApp extends Homey.App {
+    onInit() {
+        this.homeyLog = new Log({ homey: this.homey });
+    }
+}
 ```
 
 ### Notes
 
-* When your app crashes due to an uncaughtException, this will automatically be sent to Sentry.
-* As of Homey v1.0.3, when running your app using `athom project --run`, logging is disabled.
+* When your app crashes due to an `uncaughtException` or `unhandledRejection`, this will automatically be sent to Sentry.
+* When running your app with `homey app run` events will not be sent to Sentry.
 
-### Methods
+## Docs
+See [https://athombv.github.io/node-homey-log](https://athombv.github.io/node-homey-log)
 
-#### Log.init( String url );
-Set the URL manually, when not provided using your `env.json`. Not recommended due to security!
+## Changelog
+### 2.0.0
 
-#### Log.setTags( Object tags );
-Set a custom object of 'tags'. Tags that are already set are `appId`, `appVersion` and `homeyVersion`
-
-#### Log.setExtra( Object extra );
-Set a custom object of 'extra' parameters
-
-#### Log.setUser( Object user );
-Set a custom object of 'user' data - do not include sensitive data!
-
-#### Log.captureMessage( String message )
-Send a message to Sentry
-
-#### Log.captureException( Error err )
-Send an Error object to Sentry
+This version is only SDK version 3 compatible. It now requires a different way of setting up the `Log` instance, see _Getting Started_.

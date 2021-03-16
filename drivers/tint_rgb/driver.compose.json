@@ -3,7 +3,7 @@
       "en": "Tint RGB Bulb",
       "nl": "Tint RGB Bulb"
   },
-  "$extends": ["light_color_ambiance"],
+  "$extends": ["light_color"],
   "energy": {
     "approximation": {
       "usageOn": 19,

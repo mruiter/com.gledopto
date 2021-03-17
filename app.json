@@ -12,7 +12,7 @@
   },
   "category": "lights",
   "brandColor": "#C70039",
-  "version": "2.0.6",
+  "version": "2.0.8",
   "compatibility": ">=5.0.0",
   "author": {
     "name": "Marco Ruiter",
@@ -1776,7 +1776,9 @@
           "11": {
             "clusters": [
               0,
+              3,
               4,
+              5,
               6,
               8,
               768

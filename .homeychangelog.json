@@ -19,5 +19,12 @@
   },
   "2.0.6": {
     "en": "Some corrections send in by users"
+  },
+  "2.0.7": {
+    "en": "Color change error correction, Tint RGB corrections"
+  },  
+  "2.0.8": {
+    "en": "Color change error correction added for GL-S-007Z"
   }
 }
+

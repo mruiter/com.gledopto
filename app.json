@@ -1718,7 +1718,6 @@
         "dim",
         "light_hue",
         "light_saturation",
-        "light_temperature",
         "light_mode"
       ],
       "capabilitiesOptions": {
@@ -1733,11 +1732,6 @@
           }
         },
         "light_saturation": {
-          "opts": {
-            "duration": true
-          }
-        },
-        "light_temperature": {
           "opts": {
             "duration": true
           }

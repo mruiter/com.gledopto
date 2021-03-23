@@ -12,7 +12,7 @@
   },
   "category": "lights",
   "brandColor": "#C70039",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "compatibility": ">=5.0.0",
   "author": {
     "name": "Marco Ruiter",
@@ -1157,7 +1157,8 @@
           "GLEDOPTO"
         ],
         "productId": [
-          "GL-G-001Z"
+          "GL-G-001Z",
+          "GL-G-001ZS"
         ],
         "deviceId": [
           528,
@@ -1171,7 +1172,9 @@
           "11": {
             "clusters": [
               0,
+              3,
               4,
+              5,
               6,
               8,
               768
@@ -1945,13 +1948,16 @@
         "deviceId": 268,
         "profileId": 260,
         "endpoints": {
-          "10": {
+          "1": {
             "clusters": [
               0,
+              3,
               4,
+              5,
               6,
               8,
-              768
+              768,
+              4096
             ]
           }
         },

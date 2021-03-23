@@ -25,6 +25,9 @@
   },  
   "2.0.8": {
     "en": "Color change error correction added for GL-S-007Z"
+  },  
+  "2.0.9": {
+    "en": "Corrected endpoint Tint WW , Added extra ID's for gl-g-001zs"
   }
 }
 

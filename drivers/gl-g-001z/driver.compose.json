@@ -12,7 +12,7 @@
   },
   "zigbee": {
     "manufacturerName": [ "GLEDOPTO" ],
-    "productId": [ "GL-G-001Z" , "GL-G-001ZS"],
+    "productId": [ "GL-G-001Z" , "GL-G-001ZS" , "GL-G-001P"],
     "deviceId":  [ 528, 544 ],
     "profileId": [ 49246, 260 ],
     "endpoints": {

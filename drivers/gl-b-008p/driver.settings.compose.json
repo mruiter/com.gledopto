@@ -1,0 +1,19 @@
+[
+  {
+    "id": "transition_time",
+    "type": "number",
+    "label": {
+      "en": "Transition Time",
+      "nl": "Overgangstijd"
+    },
+    "hint": {
+          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+    },
+    "value": 1,
+    "attr": {
+      "min": 0,
+      "max": 6553
+    }
+  }
+]

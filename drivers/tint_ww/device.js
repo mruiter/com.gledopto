@@ -1,9 +1,7 @@
-'use strict';
+"use strict";
 
-const Homey = require('homey');
-const ZigBeeLightDevice = require('homey-meshdriver').ZigBeeLightDevice;
+const Light = require("../Light.js");
 
-class TintWW extends ZigBeeLightDevice {
+class TintWW extends Light { }
 
-}
 module.exports = TintWW;

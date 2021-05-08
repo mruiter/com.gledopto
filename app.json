@@ -1,10 +1,7 @@
 {
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.gledopto",
-  "version": "1.1.4",
-  "sdk": 2,
-  "compatibility": ">=1.5.11",
-  "category": "lights",
-  "brandColor": "#ff66cc",
+  "sdk": 3,
   "name": {
     "en": "Gledopto and Tint lights and LED Controllers (ZigBee)",
     "nl": "Gledopto en Tint lampen en LED Controllers (ZigBee)"
@@ -13,980 +10,2081 @@
     "en": "Control your Gledopto and Tint LED Controllers and lights (ZigBee) with Homey!",
     "nl": "Gebruik je Gledopto en Tint LED Controllers en lampen (ZigBee) met Homey!"
   },
+  "category": "lights",
+  "brandColor": "#C70039",
+  "version": "2.0.10",
+  "compatibility": ">=5.0.0",
   "author": {
     "name": "Marco Ruiter",
-	"email": "mruiter@tuxweb.nl"
+    "email": "mruiter@tuxweb.nl"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "MarcoRuiter"
+      }
+    }
   },
   "images": {
-    "large": "assets/images/large.jpg",
-    "small": "assets/images/small.jpg"
+    "large": "assets/images/large.png",
+    "small": "assets/images/small.png"
   },
   "speech": [],
-  "drivers": [
-	{
-    "id": "gledopto_rgb",
-    "name": {
-      "en": "Gledopto RGB+CCT Controller",
-      "nl": "Gledopto RGB+CCT Controller"
-    },
-    "mobile": {
-      "components": [
-        {
-          "id": "icon",
-          "capabilities": [ "onoff" ]
-        },
-{
-          "id": "toggle",
-          "capabilities": [
-            "onoff.1"
-          ]
-        },
-        {
-          "id": "slider",
-          "capabilities": [
-            "dim"
-          ]
-        },
-        {
-          "id": "color",
-          "capabilities": [
-            "light_hue"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_saturation"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_temperature"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_mode"
-          ]
-        }
-      ]
-    },
-    "class": "light",
-    "capabilities": [
-      "onoff",
-	  "onoff.1",
-      "dim",
-      "light_hue",
-      "light_saturation",
-      "light_temperature",
-      "light_mode"
-    ],
-    "capabilitiesOptions": {
-      "onoff": {},
-	  "onoff.1": {},
-      "dim": {},
-	  "light_hue": {},
-	  "light_saturation": {},
-      "light_temperature": {},
-	  "light_mode": {}
-    },
-    "images": {
-      "large": "/drivers/gledopto_rgb/assets/images/large.jpg",
-      "small": "/drivers/gledopto_rgb/assets/images/small.jpg"
-    },
-    "zigbee": {
-      "manufacturerName": [ "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO", "RGB" ],
-      "deviceId": 256,
-      "profileId": 49246,
-      "learnmode": {
-        "instruction": {
-          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
-        }
-      }
-    },
-    "settings": [
-      {
-        "id": "transition_time",
-        "type": "number",
-        "label": {
-          "en": "Transition Time",
-          "nl": "Overgangstijd"
-        },
-        "hint": {
-          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
-        },
-        "value": 1,
-        "attr": {
-          "min": 0,
-          "max": 6553
-        }
-      }
-    ]
-  }
-  ,
-  {
-    "id": "gledopto_ww_cw",
-    "name": {
-      "en": "Gledopto WW+CW Controller",
-      "nl": "Gledopto WW+CW Controller"
-    },
-    "mobile": {
-      "components": [
-        {
-          "id": "icon",
-          "capabilities": [
-            "onoff"
-          ]
-        },
-        {
-          "id": "slider",
-          "capabilities": [
-            "dim"
-          ]
-        },
-        {
-          "id": "color",
-          "capabilities": [
-            "light_temperature"
-          ]
-        }
-      ]
-    },
-    "class": "light",
-    "capabilities": [
-      "onoff",
-      "dim",
-      "light_temperature"
-    ],
-    "capabilitiesOptions": {
-      "onoff": {},
-      "dim": {},
-      "light_temperature": {}
-    },
-    "images": {
-      "large": "/drivers/gledopto_ww_cw/assets/images/large.jpg",
-      "small": "/drivers/gledopto_ww_cw/assets/images/small.jpg"
-    },
-    "icon": "/assets/icon.svg",
-    "zigbee": {
-      "manufacturerName": [ "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO" ],
-      "deviceId": 544,
-      "profileId": 49246,
-      "learnmode": {
-        "instruction": {
-          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
-        }
-      }
-    },
-    "settings": [
-      {
-        "id": "transition_time",
-        "type": "number",
-        "label": {
-          "en": "Transition Time",
-          "nl": "Overgangstijd"
-        },
-        "hint": {
-          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
-        },
-        "value": 1,
-        "attr": {
-          "min": 0,
-          "max": 6553
-        }
-      }
-    ]
-  }
-  ,
-  {
-    "id": "gledopto_gl-007z",
-    "name": {
-      "en": "Gledopto GL-007-Z RGB",
-      "nl": "Gledopto GL-007-Z RGB"
-    },
-    "mobile": {
-      "components": [
-        {
-          "id": "icon",
-          "capabilities": [
-            "onoff"
-          ]
-        },
-        {
-          "id": "slider",
-          "capabilities": [
-            "dim"
-          ]
-        },
-        {
-          "id": "color",
-          "capabilities": [
-            "light_hue"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_saturation"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_temperature"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_mode"
-          ]
-        }
-      ]
-    },
-    "class": "light",
-    "capabilities": [
-      "onoff",
-      "dim",
-      "light_hue",
-      "light_saturation",
-      "light_temperature",
-      "light_mode"
-    ],
-    "capabilitiesOptions": {
-      "onoff": {},
-      "dim": {},
-	  "light_hue": {},
-	  "light_saturation": {},
-      "light_temperature": {},
-	  "light_mode": {}
-    },
-    "images": {
-      "large": "/drivers/gledopto_gl-007z/assets/images/large.jpg",
-      "small": "/drivers/gledopto_gl-007z/assets/images/small.jpg"
-    },
-    "icon": "/assets/icon.svg",
-    "zigbee": {
-      "manufacturerName": [ "MLI", "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO", "GL-C-007" ],
-      "deviceId":  544,
-      "profileId": [49246, 260],
-      "learnmode": {
-        "instruction": {
-          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
-        }
-      }
-    },
-    "settings": [
-      {
-        "id": "transition_time",
-        "type": "number",
-        "label": {
-          "en": "Transition Time",
-          "nl": "Overgangstijd"
-        },
-        "hint": {
-          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
-        },
-        "value": 1,
-        "attr": {
-          "min": 0,
-          "max": 6553
-        }
-      }
-    ]
-  }
-  ,
-  {
-    "id": "gledopto_gl-c-008",
-    "name": {
-      "en": "Gledopto GL-C-008 RGB+CCT",
-      "nl": "Gledopto GL-C-008 RGB+CCT"
-    },
-    "mobile": {
-      "components": [
-        {
-          "id": "icon",
-          "capabilities": [
-            "onoff"
-          ]
-        },
-        {
-          "id": "slider",
-          "capabilities": [
-            "dim"
-          ]
-        },
-        {
-          "id": "color",
-          "capabilities": [
-            "light_hue"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_saturation"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_temperature"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_mode"
-          ]
-        }
-      ]
-    },
-    "class": "light",
-    "capabilities": [
-      "onoff",
-      "dim",
-      "light_hue",
-      "light_saturation",
-      "light_temperature",
-      "light_mode"
-    ],
-    "capabilitiesOptions": {
-      "onoff": {},
-      "dim": {},
-	  "light_hue": {},
-	  "light_saturation": {},
-      "light_temperature": {},
-	  "light_mode": {}
-    },
-    "images": {
-      "large": "/drivers/gledopto_gl-c-008/assets/images/large.jpg",
-      "small": "/drivers/gledopto_gl-c-008/assets/images/small.jpg"
-    },
-    "icon": "/assets/icon.svg",
-    "zigbee": {
-      "manufacturerName": [ "MLI", "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO", "GL-C-008" ],
-      "deviceId":  528,
-      "profileId": 49246,
-      "learnmode": {
-        "instruction": {
-          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
-        }
-      }
-    },
-    "settings": [
-      {
-        "id": "transition_time",
-        "type": "number",
-        "label": {
-          "en": "Transition Time",
-          "nl": "Overgangstijd"
-        },
-        "hint": {
-          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
-        },
-        "value": 1,
-        "attr": {
-          "min": 0,
-          "max": 6553
-        }
-      }
-    ]
-  }
-  ,
-  {
-    "id": "tint_rgb",
-    "name": {
-      "en": "Tint RGB light",
-      "nl": "Tint RGB lamp"
-    },
-    "mobile": {
-      "components": [
-        {
-          "id": "icon",
-          "capabilities": [
-            "onoff"
-          ]
-        },
-        {
-          "id": "slider",
-          "capabilities": [
-            "dim"
-          ]
-        },
-        {
-          "id": "color",
-          "capabilities": [
-            "light_hue"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_saturation"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_temperature"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_mode"
-          ]
-        }
-      ]
-    },
-    "class": "light",
-    "capabilities": [
-      "onoff",
-      "dim",
-      "light_hue",
-      "light_saturation",
-      "light_temperature",
-      "light_mode"
-    ],
-    "capabilitiesOptions": {
-      "onoff": {},
-      "dim": {},
-	  "light_hue": {},
-	  "light_saturation": {},
-      "light_temperature": {},
-	  "light_mode": {}
-    },
-    "images": {
-      "large": "/drivers/tint_rgb/assets/images/large.jpg",
-      "small": "/drivers/tint_rgb/assets/images/small.jpg"
-    },
-    "icon": "/assets/icon.svg",
-    "zigbee": {
-      "manufacturerName": [ "MLI" ],
-      "productId": [ "ZBT-ExtendedColor" ],
-      "deviceId":  [269],
-      "profileId": [260],
-      "learnmode": {
-        "instruction": {
-          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
-        }
-      }
-    },
-    "settings": [
-      {
-        "id": "transition_time",
-        "type": "number",
-        "label": {
-          "en": "Transition Time",
-          "nl": "Overgangstijd"
-        },
-        "hint": {
-          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
-        },
-        "value": 1,
-        "attr": {
-          "min": 0,
-          "max": 6553
-        }
-      }
-    ]
+  "permissions": [],
+  "bugs": {
+    "url": "https://github.com/mruiter/com.gledopto/issues"
   },
-  {
-    "id": "tint_ww",
-    "name": {
-      "en": "Tint warm-white light",
-      "nl": "Tint warm-wit lamp"
-    },
-    "mobile": {
-      "components": [
-        {
-          "id": "icon",
-          "capabilities": [
-            "onoff"
-          ]
+  "source": "https://github.com/mruiter/com.gledopto",
+  "drivers": [
+    {
+      "class": "light",
+      "icon": "/drivers/gl-b-001z/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-b-001z/assets/images/large.png",
+        "small": "/drivers/gl-b-001z/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
         },
-        {
-          "id": "slider",
-          "capabilities": [
-            "dim"
-          ]
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
         },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-B-001Z Candle Bulb E14",
+        "nl": "GL-B-001Z Candle Bulb E14"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-B-001Z"
+        ],
+        "deviceId": 528,
+        "profileId": 49246,
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-b-001z",
+      "settings": [
         {
-          "id": "color",
-          "capabilities": [
-            "light_temperature"
-          ]
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
         }
       ]
     },
-    "class": "light",
-    "capabilities": [
-      "onoff",
-      "dim",
-      "light_temperature"
-    ],
-    "capabilitiesOptions": {
-      "onoff": {},
-      "dim": {},
-      "light_temperature": {}
-    },
-    "images": {
-      "large": "/drivers/tint_ww/assets/images/large.jpg",
-      "small": "/drivers/tint_ww/assets/images/small.jpg"
-    },
-    "icon": "/assets/icon.svg",
-    "zigbee": {
-      "manufacturerName": [ "MLI" ],
-      "productId": [ "ZBT-ColorTemperature" ],
-      "deviceId": 268,
-      "profileId": 260,
-      "learnmode": {
-        "instruction": {
-          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+    {
+      "class": "light",
+      "icon": "/drivers/gl-b-001zs/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-b-001zs/assets/images/large.png",
+        "small": "/drivers/gl-b-001zs/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
         }
-      }
-    },
-    "settings": [
-      {
-        "id": "transition_time",
-        "type": "number",
-        "label": {
-          "en": "Transition Time",
-          "nl": "Overgangstijd"
-        },
-        "hint": {
-          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
-        },
-        "value": 1,
-        "attr": {
-          "min": 0,
-          "max": 6553
+      },
+      "name": {
+        "en": "GL-B-001ZS Candle Bulb E14",
+        "nl": "GL-B-001ZS Candle Bulb E14"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
         }
-      }
-    ]
-  }
-  ,
-  {
-    "id": "gledopto_gl-b-001z",
-    "name": {
-      "en": "Gledopto GL-B-001Z RGB+CCT E14",
-      "nl": "Gledopto GL-B-001Z RGB+CCT E14"
-    },
-    "mobile": {
-      "components": [
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-B-001ZS"
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-b-001zs",
+      "settings": [
         {
-          "id": "icon",
-          "capabilities": [
-            "onoff"
-          ]
-        },
-        {
-          "id": "slider",
-          "capabilities": [
-            "dim"
-          ]
-        },
-        {
-          "id": "color",
-          "capabilities": [
-            "light_hue"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_saturation"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_temperature"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_mode"
-          ]
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
         }
       ]
     },
-    "class": "light",
-    "capabilities": [
-      "onoff",
-      "dim",
-      "light_hue",
-      "light_saturation",
-      "light_temperature",
-      "light_mode"
-    ],
-    "capabilitiesOptions": {
-      "onoff": {},
-      "dim": {},
-	  "light_hue": {},
-	  "light_saturation": {},
-      "light_temperature": {},
-	  "light_mode": {}
-    },
-    "images": {
-      "large": "/drivers/gledopto_gl-b-001z/assets/images/large.jpg",
-      "small": "/drivers/gledopto_gl-b-001z/assets/images/small.jpg"
-    },
-    "icon": "/assets/icon.svg",
-    "zigbee": {
-      "manufacturerName": [ "MLI", "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO", "GL-B-001Z" ],
-      "deviceId":  528,
-      "profileId": 49246,
-      "learnmode": {
-        "instruction": {
-          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+    {
+      "class": "light",
+      "icon": "/drivers/gl-b-007z/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-b-007z/assets/images/large.png",
+        "small": "/drivers/gl-b-007z/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
         }
-      }
-    },
-    "settings": [
-      {
-        "id": "transition_time",
-        "type": "number",
-        "label": {
-          "en": "Transition Time",
-          "nl": "Overgangstijd"
-        },
-        "hint": {
-          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
-        },
-        "value": 1,
-        "attr": {
-          "min": 0,
-          "max": 6553
+      },
+      "name": {
+        "en": "GL-B-007Z Dual White And Color E27 Bulb",
+        "nl": "GL-B-007Z Dual White And Color E27 Bulb"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
         }
-      }
-    ]
-  }
-  ,
-  {
-    "id": "gledopto_gl-b-008z",
-    "name": {
-      "en": "Gledopto GL-B-008Z RGB+CCT E27",
-      "nl": "Gledopto GL-B-008Z RGB+CCT E27"
-    },
-    "mobile": {
-      "components": [
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-B-007Z"
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-b-007z",
+      "settings": [
         {
-          "id": "icon",
-          "capabilities": [
-            "onoff"
-          ]
-        },
-        {
-          "id": "slider",
-          "capabilities": [
-            "dim"
-          ]
-        },
-        {
-          "id": "color",
-          "capabilities": [
-            "light_hue"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_saturation"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_temperature"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_mode"
-          ]
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
         }
       ]
     },
-    "class": "light",
-    "capabilities": [
-      "onoff",
-      "dim",
-      "light_hue",
-      "light_saturation",
-      "light_temperature",
-      "light_mode"
-    ],
-    "capabilitiesOptions": {
-      "onoff": {},
-      "dim": {},
-	  "light_hue": {},
-	  "light_saturation": {},
-      "light_temperature": {},
-	  "light_mode": {}
-    },
-    "images": {
-      "large": "/drivers/gledopto_gl-b-008z/assets/images/large.jpg",
-      "small": "/drivers/gledopto_gl-b-008z/assets/images/small.jpg"
-    },
-    "icon": "/assets/icon.svg",
-    "zigbee": {
-      "manufacturerName": [ "MLI", "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO", "GL-B-008Z" ],
-      "deviceId":  528,
-      "profileId": 49246,
-      "learnmode": {
-        "instruction": {
-          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+    {
+      "class": "light",
+      "icon": "/drivers/gl-b-008p/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-b-008p/assets/images/large.png",
+        "small": "/drivers/gl-b-008p/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
         }
-      }
-    },
-    "settings": [
-      {
-        "id": "transition_time",
-        "type": "number",
-        "label": {
-          "en": "Transition Time",
-          "nl": "Overgangstijd"
-        },
-        "hint": {
-          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
-        },
-        "value": 1,
-        "attr": {
-          "min": 0,
-          "max": 6553
+      },
+      "name": {
+        "en": "GL-B-008P Dual White And Color E27 Bulb",
+        "nl": "GL-B-008P Dual White And Color E27 Bulb"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
         }
-      }
-    ]
-  }
-  ,
-  {
-    "id": "gledopto_gl-s-003z",
-    "name": {
-      "en": "Gledopto GL-S-003Z RGB+CCT GU10",
-      "nl": "Gledopto GL-S-003Z RGB+CCT GU10"
-    },
-    "mobile": {
-      "components": [
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-B-008P"
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-b-008p",
+      "settings": [
         {
-          "id": "icon",
-          "capabilities": [
-            "onoff"
-          ]
-        },
-        {
-          "id": "slider",
-          "capabilities": [
-            "dim"
-          ]
-        },
-        {
-          "id": "color",
-          "capabilities": [
-            "light_hue"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_saturation"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_temperature"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_mode"
-          ]
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
         }
       ]
     },
-    "class": "light",
-    "capabilities": [
-      "onoff",
-      "dim",
-      "light_hue",
-      "light_saturation",
-      "light_temperature",
-      "light_mode"
-    ],
-    "capabilitiesOptions": {
-      "onoff": {},
-      "dim": {},
-	  "light_hue": {},
-	  "light_saturation": {},
-      "light_temperature": {},
-	  "light_mode": {}
-    },
-    "images": {
-      "large": "/drivers/gledopto_gl-s-003z/assets/images/large.jpg",
-      "small": "/drivers/gledopto_gl-s-003z/assets/images/small.jpg"
-    },
-    "icon": "/assets/icon.svg",
-    "zigbee": {
-      "manufacturerName": [ "MLI", "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO", "GL-S-003Z" ],
-      "deviceId":  528,
-      "profileId": 49246,
-      "learnmode": {
-        "instruction": {
-          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+    {
+      "class": "light",
+      "icon": "/drivers/gl-b-008z/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-b-008z/assets/images/large.png",
+        "small": "/drivers/gl-b-008z/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
         }
-      }
-    },
-    "settings": [
-      {
-        "id": "transition_time",
-        "type": "number",
-        "label": {
-          "en": "Transition Time",
-          "nl": "Overgangstijd"
-        },
-        "hint": {
-          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
-        },
-        "value": 1,
-        "attr": {
-          "min": 0,
-          "max": 6553
+      },
+      "name": {
+        "en": "GL-B-008ZS Candle Bulb E27",
+        "nl": "GL-B-008ZS Candle Bulb E27"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
         }
-      }
-    ]
-  }
-  ,
-  {
-    "id": "gledopto_gl-s-007z",
-    "name": {
-      "en": "Gledopto GL-S-007Z DW+COLOR GU10",
-      "nl": "Gledopto GL-S-007Z DW+COLOR GU10"
-    },
-    "mobile": {
-      "components": [
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-B-008Z"
+        ],
+        "deviceId": 528,
+        "profileId": 49246,
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-b-008z",
+      "settings": [
         {
-          "id": "icon",
-          "capabilities": [
-            "onoff"
-          ]
-        },
-        {
-          "id": "slider",
-          "capabilities": [
-            "dim"
-          ]
-        },
-        {
-          "id": "color",
-          "capabilities": [
-            "light_hue"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_saturation"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_temperature"
-          ]
-        },
-		{
-          "id": "color",
-          "capabilities": [
-            "light_mode"
-          ]
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
         }
       ]
     },
-    "class": "light",
-    "capabilities": [
-      "onoff",
-      "dim",
-      "light_hue",
-      "light_saturation",
-      "light_temperature",
-      "light_mode"
-    ],
-    "capabilitiesOptions": {
-      "onoff": {},
-      "dim": {},
-	  "light_hue": {},
-	  "light_saturation": {},
-      "light_temperature": {},
-	  "light_mode": {}
-    },
-    "images": {
-      "large": "/drivers/gledopto_gl-s-007z/assets/images/large.jpg",
-      "small": "/drivers/gledopto_gl-s-007z/assets/images/small.jpg"
-    },
-    "icon": "/assets/icon.svg",
-    "zigbee": {
-      "manufacturerName": [ "MLI", "GLEDOPTO" ],
-      "productId": [ "GLEDOPTO", "GL-S-007Z" ],
-      "deviceId":  528,
-      "profileId": 49246,
-      "learnmode": {
-        "instruction": {
-          "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
-          "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
-        }
-      }
-    },
-    "settings": [
-      {
-        "id": "transition_time",
-        "type": "number",
-        "label": {
-          "en": "Transition Time",
-          "nl": "Overgangstijd"
+    {
+      "class": "light",
+      "icon": "/drivers/gl-c-006/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-c-006/assets/images/large.png",
+        "small": "/drivers/gl-c-006/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
         },
-        "hint": {
-          "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-          "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
         },
-        "value": 1,
-        "attr": {
-          "min": 0,
-          "max": 6553
+        "onoff": {
+          "setOnDim": false
         }
-      }
-    ]
-  }
+      },
+      "name": {
+        "en": "GL-C-006 WW+CW Controller",
+        "nl": "GL-C-006 WW+CW Controller"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-C-006"
+        ],
+        "deviceId": 544,
+        "profileId": [
+          49246,
+          260
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.\n\n NOTE: It might be necessary to restart the app after including the controller to have the CCT part working for some older versions of this controller.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.\n\n NOTE: It might be necessary to restart the app after including the controller to have the CCT part working for some older versions of this controller."
+          }
+        }
+      },
+      "id": "gl-c-006",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-c-007/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-c-007/assets/images/large.png",
+        "small": "/drivers/gl-c-007/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-C-007 RGBW Controller (1ID only)",
+        "nl": "GL-C-007 RGBW Controller (1ID only)"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-C-007"
+        ],
+        "deviceId": [
+          528,
+          544
+        ],
+        "profileId": [
+          49246,
+          260
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.\n\n NOTE: It might be necessary to restart the app after including the controller to have the CCT part working for some older versions of this controller.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.\n\n NOTE: It might be necessary to restart the app after including the controller to have the CCT part working for some older versions of this controller."
+          }
+        }
+      },
+      "id": "gl-c-007",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-c-008/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-c-008/assets/images/large.png",
+        "small": "/drivers/gl-c-008/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-C-008 RGB+CCT Controller (1ID only)",
+        "nl": "GL-C-008 RGB+CCT Controller (1ID only)"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-C-008"
+        ],
+        "deviceId": 528,
+        "profileId": 49246,
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.\n\n NOTE: It might be necessary to restart the app after including the controller to have the CCT part working for some older versions of this controller.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.\n\n NOTE: It might be necessary to restart the app after including the controller to have the CCT part working for some older versions of this controller."
+          }
+        }
+      },
+      "id": "gl-c-008",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-c-008p/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-c-008p/assets/images/large.png",
+        "small": "/drivers/gl-c-008p/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-C-008P RGB+CCT Pro Controller",
+        "nl": "GL-C-008P RGB+CCT Pro Controller"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-C-008P"
+        ],
+        "deviceId": [
+          269
+        ],
+        "profileId": [
+          260
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768,
+              4096
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-c-008p",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-c-008s/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-c-008s/assets/images/large.png",
+        "small": "/drivers/gl-c-008s/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-C-008S RGB+CCT Controller",
+        "nl": "GL-C-008S RGB+CCT Controller"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-C-008S"
+        ],
+        "deviceId": 528,
+        "profileId": 49246,
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-c-008s",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-c-009/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-c-009/assets/images/large.png",
+        "small": "/drivers/gl-c-009/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-C-009 LED Dimmer Controller",
+        "nl": "GL-C-009 LED Dimmer Controller"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-C-009"
+        ],
+        "deviceId": 256,
+        "profileId": 49246,
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-c-009",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-d-004z/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-d-004z/assets/images/large.png",
+        "small": "/drivers/gl-d-004z/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-D-004Z RGBW/CCT Downlighter",
+        "nl": "GL-D-004Z RGBW/CCT Inbouwspot"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-D-004Z"
+        ],
+        "deviceId": [
+          528,
+          544
+        ],
+        "profileId": [
+          49246,
+          260
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-d-004z",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-g-001z/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-g-001z/assets/images/large.png",
+        "small": "/drivers/gl-g-001z/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-G-001Z RGBW Garden Light",
+        "nl": "GL-G-001Z RGBW Tuin Lamp"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-G-001Z",
+          "GL-G-001ZS",
+          "GL-G-001P"
+        ],
+        "deviceId": [
+          528,
+          544
+        ],
+        "profileId": [
+          49246,
+          260
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-g-001z",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-g-007z/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-g-007z/assets/images/large.png",
+        "small": "/drivers/gl-g-007z/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-G-007Z RGBW Garden Light",
+        "nl": "GL-G-007Z RGBW Tuin Lamp"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-G-007Z"
+        ],
+        "deviceId": [
+          528,
+          544
+        ],
+        "profileId": [
+          49246,
+          260
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-g-007z",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-mc-001/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-mc-001/assets/images/large.png",
+        "small": "/drivers/gl-mc-001/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-MC-001 RGB+CCT Mini Controller",
+        "nl": "GL-MC-001 RGB+CCT Mini Controller"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-MC-001"
+        ],
+        "deviceId": [
+          528
+        ],
+        "profileId": [
+          49246
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-mc-001",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-mc-001p/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-mc-001p/assets/images/large.png",
+        "small": "/drivers/gl-mc-001p/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-MC-001P RGB+CCT Mini Controller",
+        "nl": "GL-MC-001P RGB+CCT Mini Controller"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-MC-001P"
+        ],
+        "deviceId": [
+          269
+        ],
+        "profileId": [
+          260
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768,
+              4096
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.          2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-mc-001p",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-s-003z/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-s-003z/assets/images/large.png",
+        "small": "/drivers/gl-s-003z/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-S-003Z RGB+CCT GU10 Spot",
+        "nl": "GL-S-003Z RGB+CCT GU10 Spot"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-S-003Z"
+        ],
+        "deviceId": 528,
+        "profileId": 49246,
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-s-003z",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-s-004z/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-s-004z/assets/images/large.png",
+        "small": "/drivers/gl-s-004z/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-S-004Z WW/CW GU10 Spot",
+        "nl": "GL-S-004Z WW/CW GU10 Spot"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-S-004Z"
+        ],
+        "deviceId": [
+          528,
+          544
+        ],
+        "profileId": [
+          49246,
+          260
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-s-004z",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/gl-s-007z/assets/icon.svg",
+      "images": {
+        "large": "/drivers/gl-s-007z/assets/images/large.png",
+        "small": "/drivers/gl-s-007z/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "GL-S-007Z RGB/CCT GU10 Spot",
+        "nl": "GL-S-007Z RGB/CCT GU10 Spot"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "MLI",
+          "GLEDOPTO"
+        ],
+        "productId": [
+          "GL-S-007Z"
+        ],
+        "deviceId": [
+          528,
+          544
+        ],
+        "profileId": [
+          49246,
+          260
+        ],
+        "endpoints": {
+          "11": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "gl-s-007z",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/tint_rgb/assets/icon.svg",
+      "images": {
+        "large": "/drivers/tint_rgb/assets/images/large.png",
+        "small": "/drivers/tint_rgb/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_hue": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_saturation": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "Tint RGB Bulb",
+        "nl": "Tint RGB Bulb"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": "MLI",
+        "productId": "ZBT-ExtendedColor",
+        "deviceId": 269,
+        "profileId": 260,
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768,
+              4096
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "tint_rgb",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "icon": "/drivers/tint_ww/assets/icon.svg",
+      "images": {
+        "large": "/drivers/tint_ww/assets/images/large.png",
+        "small": "/drivers/tint_ww/assets/images/small.png"
+      },
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "name": {
+        "en": "Tint WW Bulb",
+        "nl": "Tint WW Bulb"
+      },
+      "energy": {
+        "approximation": {
+          "usageOn": 19,
+          "usageOff": 0.1
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "MLI"
+        ],
+        "productId": [
+          "ZBT-ColorTemperature"
+        ],
+        "deviceId": 268,
+        "profileId": 260,
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768,
+              4096
+            ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times.",
+            "nl": "1. Connect the LED product to the controller see section `wire connection`.\n 2. Start the device searching on the ZigBee Light Link Gateway, it could take some time.\nIf the Gateway does not find the device, plug power off/on or make a reset.\n3. The Gateway found your device and you can assign it to the different rooms/zones/groups.\n4. Now you can use the device.\n\nReset:\n1. Switch on your device.\n2. Now switch off and on within 2 seconds.\n3. Repeat off/on four times.\n4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times."
+          }
+        }
+      },
+      "id": "tint_ww",
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    }
   ]
 }

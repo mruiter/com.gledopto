@@ -2272,8 +2272,6 @@
       "zigbee": {
         "manufacturerName": "MLI",
         "productId": "ZBT-ExtendedColor",
-        "deviceId": 269,
-        "profileId": 260,
         "endpoints": {
           "1": {
             "clusters": [

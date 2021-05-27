@@ -1,7 +1,7 @@
 {
   "name": {
-      "en": "GL-C-009 LED Dimmer Controller",
-      "nl": "GL-C-009 LED Dimmer Controller"
+      "en": "GL-C-009P LED Dimmer Controller",
+      "nl": "GL-C-009P LED Dimmer Controller"
   },
   "$extends": ["light_white"],
   "energy": {
@@ -12,15 +12,17 @@
   },
   "zigbee": {
       "manufacturerName": [ "GLEDOPTO" ],
-      "productId": [ "GL-C-009" ],
+      "productId": [ "GL-C-009P" ],
     "endpoints": {
       "11": {
         "clusters": [
           0,
+		  3,
           4,
+		  5,
           6,
           8,
-          768
+          4096
         ]
       }
     },

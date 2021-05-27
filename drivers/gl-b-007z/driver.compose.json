@@ -12,7 +12,7 @@
   },
   "zigbee": {
     "manufacturerName": ["GLEDOPTO"],
-    "productId": ["GL-B-007Z"],
+    "productId": ["GL-B-007Z" , "GL-B-007P"],
     "endpoints": {
       "11": {
         "clusters": [

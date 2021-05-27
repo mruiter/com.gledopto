@@ -12,15 +12,19 @@
   },
   "zigbee": {
       "manufacturerName": [ "GLEDOPTO" ],
-      "productId": [ "GL-C-006" ],
+      "productId": [ "GL-C-006P" ],
+
     "endpoints": {
       "11": {
         "clusters": [
           0,
+		  3,
           4,
+		  5,
           6,
           8,
-          768
+          768,
+		  4096
         ]
       }
     },
